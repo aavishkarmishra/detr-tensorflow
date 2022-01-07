@@ -1,0 +1,10 @@
+tensorflow
+wandb
+numpy
+pycocotools
+matplotlib
+scikit-image
+imageio
+pandas
+opencv-python
+imgaug
