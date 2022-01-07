@@ -12,7 +12,7 @@ def bbox_xcycwh_to_x1y1x2y2(bbox_xcycwh: np.array):
     """
         Rescale a list of bbox to the image size
         @bbox_xcycwh: [[xc, yc, w, h], ...]
-        @img_size (height, width)
+        @img_size (height, width) 
     """
     bbox_x1y1x2y2 = np.zeros_like((bbox_xcycwh))
     bbox_x1y1x2y2[:, 0] = bbox_xcycwh[:, 0] - (bbox_xcycwh[:, 2] / 2)
